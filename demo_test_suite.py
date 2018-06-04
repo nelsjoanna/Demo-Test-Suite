@@ -3,7 +3,7 @@ run every single test file you want together at the same time
 using the test suite concept"""
 
 import unittest
-#import the test cases you want that you created
+# import the test cases you want that you created
 from unittestpackage.test_class1 import TestClass1
 from unittestpackage.test_class2 import TestClass2
 
