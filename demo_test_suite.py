@@ -11,7 +11,7 @@ from unittestpackage.test_class2 import TestClass2
 tc1 = unittest.TestLoader().loadTestsFromTestCase(TestClass1)
 tc2 = unittest.TestLoader().loadTestsFromTestCase(TestClass2)
 
-# create a Test Suite combining these two classes
+# create a Test Suite combining these two classes. (smoke_test is just an ex)
 smoke_test = unittest.TestSuite([tc1, tc2])
 
 # trigger the run
